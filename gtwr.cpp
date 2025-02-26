@@ -117,7 +117,7 @@ int main() {
     // Prompt the user to choose a language
     cout << "Choose the language (English/Russian): ";
     cin >> languageInput;
-    cin.ignore(); // Clear input buffer to prevent issues with getline()
+  
 
     if (languageInput == "English") { // Check if the chosen language is English
         cout << "\nAvailable commands:\n";
